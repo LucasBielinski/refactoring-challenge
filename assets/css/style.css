@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
 }
-/* sets background color for whole website */
+/* sets background color for whole document */
 body {
   background-color: #d9dcd6;
 }
-/* adds padding around the header, sets background for header, sets font that load on the browser, sets font color for the header */
+/* adds padding, font type, backround color and font color to header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,16 +15,17 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-/* sets fontsize for h1 and how it displays */
+/* sets font size and display to h1 tag in header */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
-/* changes font color of "seo" in "Horiseon */
+/* changes color of "seo" in "Horiseon" */
 header h1 .seo {
   color: #d9dcd6;
 }
-/* set padding and display rules for nav */
+/* sets padding, margin and font type for nav element */
+/* floats links in nav to the right */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -32,23 +33,22 @@ nav {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-/* disables style for the list and displays them side by side*/
+/* takes away list style, displays links side by side */
 nav ul li {
   list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
-
-/* sets font color for links and removes underline from links */
+/* sets link color to white and takes away underlines from links */
 a {
   color: #ffffff;
   text-decoration: none;
 }
-/* sets fontsize for <p> children to 16px */
+/* sets font size for paragraph tags to 16px */
 p {
   font-size: 16px;
 }
-/* places an image in the backround, sets it to a large display */
+
 .hero {
   height: 800px;
   width: 100%;
@@ -57,13 +57,13 @@ p {
   background-size: cover;
   background-position: center;
 }
-/* sets width and display for all children under main */
+
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-/* sets the margin and padding for the aside element, positions it to the right of the page, clears objects floating near it */
+
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -74,24 +74,23 @@ aside {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-/* sets the bottom of the margin in section to 32 px */
-/* sets font color of font in the section element to white */
+
 section {
   margin-bottom: 32px;
   color: #ffffff;
 }
-/* sets the rules for the h3 headers in the s*/
+
 section h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-/* sets rules for the images under the section element */
+
 section img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
-/* sets the margin, height, padding, font type, and background color, to the selected ids */
+
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing {
@@ -102,25 +101,24 @@ section img {
   background-color: #0072bb;
   color: #ffffff;
 }
-/* floats the image under the selected ids to the left, gives them a margin to the right of 25px */
 #search-engine-optimization img,
 #social-media-marketing img {
   max-height: 200px;
   float: left;
   margin-right: 25px;
 }
-/* floats image under the selected id to the right */
+
 #online-reputation-management img {
   max-height: 200px;
   float: right;
   margin-left: 25px;
 }
-/* sets margin for all h2 tags under article */
 article h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/* adds padding to the footers, clears floating elements from both side. Centers text.  */
+
+/*changed class to element */
 footer {
   padding: 30px;
   clear: both;
@@ -128,7 +126,7 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-/* sets font-size for h2 tags in the footer */
+
 footer h2 {
   font-size: 20px;
 }
