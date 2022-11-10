@@ -13,7 +13,7 @@ N/A
 In order to see the code I have refactored, open inspect element (CTRL+SHIFT+I) or right click and open inspect element. You can also view the "index.html" or "style.css" files attached to this project in GitHub.
 
 ![Final Product](./assets/images/screenshot.png)
-(https://lucasbielinski.github.io/refactoring-challenge/ "Finished Site")
+https://lucasbielinski.github.io/refactoring-challenge/
 
 ## Credits
 
