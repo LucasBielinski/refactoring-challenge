@@ -48,7 +48,7 @@ a {
 p {
   font-size: 16px;
 }
-/* sets a background image and detrmines it's size */
+/* sets a background image and determines it's size */
 .hero {
   height: 800px;
   width: 100%;
@@ -64,7 +64,7 @@ main {
   margin-left: 20px;
 }
 /* sets measurements for the aside element */
-/* /* floats aside the the right, sets font type and background color */
+/* floats aside the the right, sets font type and background color */
 aside {
   margin-right: 20px;
   padding: 20px;
